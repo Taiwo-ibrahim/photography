@@ -10,9 +10,7 @@ function Hold() {
       </div>
       <div className='holding__container-content'>
         <img src= "/magawtfLogo.png" alt='logo' />
-        <h3>it will be ready when its ready</h3>
-        <p>we are down for now because the full webste is not ready so i hope this page is enough to hold you on before the original thing lands</p>
-        <button>contact</button>
+        <h3>Full Website Coming Soon...</h3>
       </div>
     </div>
   )

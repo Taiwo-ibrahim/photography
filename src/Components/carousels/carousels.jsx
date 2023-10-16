@@ -44,6 +44,71 @@ function carousels() {
       "description": "image8",
       "image": "./item8.jpg"
     },
+    {
+      "id": 1,
+      "description": "image9",
+      "image": "./item9.jpg"
+    },
+    {
+      "id": 1,
+      "description": "image10",
+      "image": "./item10.jpeg"
+    },
+    {
+      "id": 1,
+      "description": "image11",
+      "image": "./item11.HEIC"
+    },
+    {
+      "id": 1,
+      "description": "image12",
+      "image": "./item12.jpg"
+    },
+    {
+      "id": 1,
+      "description": "image13",
+      "image": "./item13.HEIC"
+    },
+    {
+      "id": 1,
+      "description": "image14",
+      "image": "./item14.png"
+    },
+    {
+      "id": 1,
+      "description": "image15",
+      "image": "./item15.HEIC"
+    },
+    {
+      "id": 1,
+      "description": "image16",
+      "image": "./item16.jpeg"
+    },
+    {
+      "id": 1,
+      "description": "image17",
+      "image": "./item17.JPEG"
+    },
+    {
+      "id": 1,
+      "description": "image18",
+      "image": "./item18.JPEG"
+    },
+    {
+      "id": 1,
+      "description": "image19",
+      "image": "./item19.png"
+    },
+    {
+      "id": 1,
+      "description": "image20",
+      "image": "./item20.JPG"
+    },
+    {
+      "id": 1,
+      "description": "image21",
+      "image": "./item21.jpg"
+    },
   ]
   const [currentIndex, setCurrentIndex] = useState(0)
   const carouselInfinityScroll = () => {
