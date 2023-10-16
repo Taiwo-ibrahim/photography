@@ -10,7 +10,7 @@ function Hold() {
       </div>
       <div className='holding__container-content'>
         <img src= "/magawtfLogo.png" alt='logo' />
-        <h3>Full Website Coming Soon...</h3>
+        <h3>full website coming soon...</h3>
       </div>
     </div>
   )
