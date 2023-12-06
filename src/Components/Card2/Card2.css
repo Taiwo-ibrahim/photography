@@ -1,0 +1,7 @@
+.card2__container {
+  display: flex;
+  
+}
+.card2__container > img {
+  width: 100%;
+}
