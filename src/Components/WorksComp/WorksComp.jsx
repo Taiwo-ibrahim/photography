@@ -7,7 +7,7 @@ function WorksComp() {
     <div className='workscomp__container'>
       <NavLink to="photography" className='workscomp__container-images'>
         <img  src="/home_img2.png" alt="" />
-        <p>photgraphy</p>
+        <p>photography</p>
       </NavLink>
       <NavLink to="styling" className='workscomp__container-images'>
         <img  src="/home_img3.png" alt="" />

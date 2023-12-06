@@ -19,7 +19,7 @@ function Navbar() {
           <NavLink className="nav-link" to="/">home</NavLink>
           <NavLink className="nav-link" to="/works">my works</NavLink>
           <NavLink className="nav-link" to="/about">about me</NavLink>
-          <NavLink className="nav-link" to="/film">film</NavLink>
+          <NavLink className="nav-link" to="/film">films</NavLink>
           <NavLink className="nav-link" to="/contact">contact me</NavLink>
         </div>
       </div>

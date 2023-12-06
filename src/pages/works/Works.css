@@ -1,3 +1,7 @@
+.workspage__container {
+  width: 100%;
+}
+
 .workspage__container-navbar {
   /* display: flex; */
 }

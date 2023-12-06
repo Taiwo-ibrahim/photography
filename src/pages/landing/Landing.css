@@ -34,6 +34,9 @@
 .landing__container-images > img {
   width: 100%;
 }
+.landing__images {
+  width: 100%;
+}
 .landing__container-images > p {
   position: absolute;
   font-family: forma-djr-text, sans-serif;

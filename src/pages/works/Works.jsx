@@ -14,12 +14,12 @@ function Works() {
   }
 
   return (
-    <div>
+    <div className='workspage__container'>
       <div className='workspage__container-navbar'>
         <Navbar />
       </div>
       <div onClick={handleChange}>
-        {changed && <WorksComp />}
+        {changed && < WorksComp />}
       </div>
 
 

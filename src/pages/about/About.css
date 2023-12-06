@@ -9,6 +9,8 @@
   background: #99578C;
   align-items: center;
   color: #FFFFFF;
+  font-family: forma-djr-text, sans-serif;
+  font-style: italic;
 }
 .about__container-body_left {
   display: flex;
@@ -19,12 +21,10 @@
   margin-bottom: 340px;
 }
 .about__container-body_left > h2 {
-  font-family: forma-djr-text, sans-serif;
   font-size: 36px;
   max-width: 1270px;
   width: 90%;
   margin-inline: auto;
-  font-style: italic;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0em;
