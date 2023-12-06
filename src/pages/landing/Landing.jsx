@@ -15,7 +15,7 @@ function Landing() {
         <div className='landing__container2'>
           <div className='landing__container-images'>
             <NavLink to="/works"><img className='landing__images' src="/home_img2.png" alt="" /></NavLink>
-            <p>photgraphy</p>
+            <p>photography</p>
           </div>
           <div  className='landing__container-images'>
             <NavLink to="/works"><img className='landing__images' src="/home_img3.png" alt="" /></NavLink>

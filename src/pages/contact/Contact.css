@@ -68,7 +68,6 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  /* gap: 40px; */
 }
 .contact-form-top-left {
   display:flex;
@@ -137,7 +136,8 @@
 .contact-form > button:hover {
   scale: 1.01;
   transition: scale 0.3s ease-in-out;
-}
+} 
+
 .contact__container-footer {
   margin-top: 130px;
 }
