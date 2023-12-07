@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   align-items: center;
   width: 350px;
-  /* border: 2px solid green; */
 }
 .card {
   cursor: pointer;
@@ -12,7 +11,11 @@
   max-height: 203px;
   margin-inline: auto;
 }
-.card:hover, .card.active {
+.card.active {
+  opacity: 0.8;
+  transition: opacity 0.5s ease-in-out;
+}
+.card:hover {
   opacity: 0.8;
   transition: opacity 0.5s ease-in-out;
 }

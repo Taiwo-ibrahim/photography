@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../../Components/Card/Card'
 import Footer from '../../Components/Footer/Footer'
-import "./Photography.css"
+import './Photography.css'
 import { useState } from 'react'
 
 function Photography() {

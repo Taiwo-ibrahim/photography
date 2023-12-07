@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Card from '../../Components/Card/Card'
 import Card2 from '../../Components/Card2/Card2'
 import Footer from '../../Components/Footer/Footer'
-import "./Styling.css"
+import './Styling.css'
 
 function Styling() {
   const [styling, setStyling] = useState(false)

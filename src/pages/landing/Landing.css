@@ -21,7 +21,6 @@
 .landing__container2 {
   display: flex;
   width:100%;
-  /* overflow: hidden; */
   flex-wrap: wrap;
 }
 .landing__container-images {
@@ -44,7 +43,6 @@
   font-style: italic;
   font-weight: 700;
   line-height: 154px;
-  letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
   top: 50%;
@@ -55,7 +53,12 @@
   align-items: center;
   opacity: 0;
 }
-.landing__container-images:hover,
+.landing__container-images:hover {
+  opacity: 1;
+  cursor: pointer;
+  scale: 1.01;
+  transition: opacity 0.5s ease-in-out; 
+}
 .landing__container-images > p:hover {
   opacity: 1;
   cursor: pointer;
@@ -68,7 +71,4 @@
     width: 50%;
     flex-wrap: wrap;
   }
-}
-@media screen and (max-width: 450px) {
-
 }

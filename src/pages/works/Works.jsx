@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../../Components/Navbar/Navbar'
 import WorksComp from '../../Components/WorksComp/WorksComp'
-import "./Works.css"
+import './Works.css'
 
 function Works() {
 

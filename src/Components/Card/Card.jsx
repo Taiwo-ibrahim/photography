@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import "./Card.css"
 
 function Card() {
@@ -24,7 +24,6 @@ function Card() {
         <img className='worksCard' src="/designCard.png" alt="" />
       </NavLink>
 
-      {/* <Outlet /> */}
     </div>
   )
 }

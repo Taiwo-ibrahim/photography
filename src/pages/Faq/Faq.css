@@ -23,7 +23,6 @@
   font-style: italic;
   font-weight: 700;
   line-height: 80px;
-  letter-spacing: 0px;
   text-align: left;
   color: #99578C;
 }
@@ -38,13 +37,11 @@
   max-width: 600px;
   padding: 20px;
   cursor: pointer;
-  /* width: 70%; */
   font-family: forma-djr-text, sans-serif;
   font-size: 20px;
   font-style: italic;
   font-weight: 700;
   line-height: 31px;
-  letter-spacing: 0em;
   text-align: left;
   color: #99578C;   
   border-radius: 8px;
@@ -97,7 +94,7 @@
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-    
+
 }
 .faq__container-answer {
   max-height: 0;
@@ -133,7 +130,6 @@
     font-style: italic;
     font-weight: 700;
     line-height: 78px;
-    letter-spacing: 0em;
     text-align: left;
     color: #99578C;
   }
@@ -168,7 +164,6 @@
     font-style: italic;
     font-weight: 700;
     line-height: 60px;
-    letter-spacing: 0em;
     text-align: left;
     color: #99578C;
 
@@ -182,25 +177,24 @@
     font-style: italic;
     font-weight: 700;
     line-height: 49px;
-    letter-spacing: 0em;
     text-align: left;
     width: 97%;
     margin-inline: auto;
     color: #ffffff;
   }
   .faq__container-media_query-qa_answer.show {
-    color: #FFFFFF
+    color: #FFFFFF;
     margin-bottom: 10px;
   }
   .faq__container-media_query-qa_answer {
     max-height: 0;
     overflow: hidden;
-    transition: all 500ms cubic-bezier(0,1,0,1)
+    transition: all 500ms cubic-bezier(0,1,0,1);
   }
   .faq__container-media_query-qa_answer.show {
     height: auto;
     max-height: 990px;
-    transition: all 500ms cubic-bezier(1,0,1,0)
+    transition: all 500ms cubic-bezier(1,0,1,0);
   }
   .faq__container-body {
     margin-bottom: 90px;

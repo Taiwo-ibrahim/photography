@@ -1,7 +1,7 @@
 import React from 'react'
 // import PropTypes from "prop-types"
 import Navbar from '../../Components/Navbar/Navbar'
-import "./Film.css"
+import './Film.css'
 import YoutubeEmbed from '../../Components/YoutubeEmbed/YoutubeEmbed'
 
 function Film() {
