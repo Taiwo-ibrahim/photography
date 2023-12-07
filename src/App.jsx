@@ -1,4 +1,5 @@
-import './App.css'
+// import './App.css'
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Landing from './pages/landing/Landing'
 import Works from './pages/works/Works'
