@@ -17,7 +17,8 @@
   width: 50%;
   max-width: 620px;
   gap: 40px;
-}.faq__container-body_left > h1 {
+}
+.faq__container-body_left > h1 {
   font-family: forma-djr-text, sans-serif;
   font-size: 36px;
   font-style: italic;
@@ -68,7 +69,7 @@
   font-style: italic;
   font-weight: 700;
   line-height: 80px;
-  letter-spacing: 0px;s
+  letter-spacing: 0px;
   text-align: left;
   color: #99578C;
 }
