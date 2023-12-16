@@ -26,22 +26,22 @@ function Design() {
           <Card />
           </div>
           <div className='design__container-right'>
-            <div onClick={handleToggle}>
+            <div onClick={handleToggle} className="design__container-right_card">
               <Card2 card2Img="/design1.png"/>
             </div>
-            <div onClick={handleToggle}>
+            <div onClick={handleToggle} className="design__container-right_card">
               <Card2 card2Img="/design2.png"/>
             </div>
-            <div onClick={handleToggle}>
+            <div onClick={handleToggle} className="design__container-right_card">
               <Card2 card2Img="/design3.png"/>
             </div>
-            <div onClick={handleToggle}>
+            <div onClick={handleToggle} className="design__container-right_card">
               <Card2 card2Img="/design4.png"/>
             </div>
-            <div onClick={handleToggle}>
+            <div onClick={handleToggle} className="design__container-right_card">
               <Card2 card2Img="/design5.png"/>
             </div>
-            <div onClick={handleToggle}>
+            <div onClick={handleToggle} className="design__container-right_card">
               <Card2 card2Img="/design6.png"/>
             </div>
           </div>

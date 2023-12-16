@@ -24,22 +24,22 @@ function Styling() {
           <Card />
         </div>
         <div className='styling__container-right'>
-          <div onClick={handleStyling}>
+          <div onClick={handleStyling} className="styling__container-right_card">
             <Card2 card2Img="/styling1.png" />
           </div>
-          <div onClick={handleStyling}>
+          <div onClick={handleStyling} className="styling__container-right_card">
             <Card2 card2Img="/styling2.png" />
           </div>
-          <div onClick={handleStyling}>
+          <div onClick={handleStyling} className="styling__container-right_card">
             <Card2 card2Img="/styling3.png" />
           </div>
-          <div onClick={handleStyling}>
+          <div onClick={handleStyling} className="styling__container-right_card">
             <Card2 card2Img="/styling4.png" />
           </div>
-          <div onClick={handleStyling}>
+          <div onClick={handleStyling} className="styling__container-right_card">
             <Card2 card2Img="/styling5.png" />
           </div>
-          <div onClick={handleStyling}>
+          <div onClick={handleStyling} className="styling__container-right_card">
             <Card2 card2Img="/styling6.png" />
           </div>
         </div>

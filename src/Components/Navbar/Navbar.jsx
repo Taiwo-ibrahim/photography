@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div>
       <div className='navbar__container'>
-        <NavLink  to="/" ><img className="home-img" src="/magawtfLogo.png" alt="top-logo"/></NavLink>
+        <NavLink  to="/" ><img className="home-img" src="/magawtfLogo.png" alt="top-logoo"/></NavLink>
         <NavLink  to="/" ><img className="home-img-2" src="/logo2.png" alt="top-logo"/></NavLink>
         <div className='navbar__container-links'>
           <NavLink className="nav-link" to="/">home</NavLink>

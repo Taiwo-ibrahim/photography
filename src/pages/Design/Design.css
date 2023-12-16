@@ -17,6 +17,10 @@
   gap: 40px 40px;
   justify-content: center;
 }
+.design__container-right_card {
+  width: 280px;
+  height: 350px;
+}
 .design__container-footer {
   display: none;
 }

@@ -12,7 +12,7 @@ function Contact() {
       <div className='contact__container-form_container'>
         <div className='contact__container-form_text'>
           <p>Have a project in mind?</p>
-          <h1>fill in the form to make enquires</h1>
+          <h1>fill in the form to make enquiries</h1>
           <div className='contact__container-form_text_images'>
             <img src="/Twitter.png" alt="" />
             <img src="/instagram.png" alt="" />

@@ -32,6 +32,10 @@ function Photography() {
             <img onClick={handlegallery} src="/photography2.png" alt="" />
             <p>Lauren jemes</p>
             <img onClick={handlegallery} src="/photography1.png" alt="" />
+            <p>Lauren jemes</p>
+            <img onClick={handlegallery} src="/photography5.png" alt="" />
+            <p>Lauren jemes</p>
+            <img onClick={handlegallery} src="/photography6.png" alt="" />
           </div>
         </div>
         
