@@ -23,8 +23,7 @@ function Works() {
       </div>
 
 
-
-      <Outlet />
+     {changed == false && <Outlet /> }
     </div>
   )
 }

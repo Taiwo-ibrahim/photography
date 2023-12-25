@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { useNavigate } from 'react-router-dom'
 import Card from '../../Components/Card/Card'
 import Card2 from '../../Components/Card2/Card2'
 import Footer from '../../Components/Footer/Footer'
@@ -6,6 +7,7 @@ import './Design.css'
 
 function Design() {
   const [toggleGallery, setToggleGallery]  = useState(false)
+  const navigate = useNavigate()
 
   function handleToggle() {
     setToggleGallery(!toggleGallery)
@@ -16,7 +18,32 @@ function Design() {
     setGalleryStyle(!galleryStyle)
   }
 
-
+  const designData = [
+    {
+      idf: 1,
+      images: "/design1.png"
+    },
+    {
+      idf: 2,
+      images: "/design2.png"
+    },
+    {
+      idf: 3,
+      images: "/design3.png"
+    },
+    {
+      idf: 4,
+      images: "/design4.png"
+    },
+    {
+      idf: 5,
+      images: "/design5.png"
+    },
+    {
+      idf: 6,
+      images: "/design6.png"
+    },
+  ]
 
   return (
     <div className='design__big-container'>
@@ -26,24 +53,13 @@ function Design() {
           <Card />
           </div>
           <div className='design__container-right'>
-            <div onClick={handleToggle} className="design__container-right_card">
-              <Card2 card2Img="/design1.png"/>
-            </div>
-            <div onClick={handleToggle} className="design__container-right_card">
-              <Card2 card2Img="/design2.png"/>
-            </div>
-            <div onClick={handleToggle} className="design__container-right_card">
-              <Card2 card2Img="/design3.png"/>
-            </div>
-            <div onClick={handleToggle} className="design__container-right_card">
-              <Card2 card2Img="/design4.png"/>
-            </div>
-            <div onClick={handleToggle} className="design__container-right_card">
-              <Card2 card2Img="/design5.png"/>
-            </div>
-            <div onClick={handleToggle} className="design__container-right_card">
-              <Card2 card2Img="/design6.png"/>
-            </div>
+            {designData.map((item) => {
+              return (
+              <div key={item.idf} onClick={() => navigate(`/works/design/${item.idf}`)} className="design__container-right_card">
+                <Card2 card2Img={item.images}/>
+              </div>
+              )
+            })}
           </div>
         </div>
 
@@ -53,7 +69,14 @@ function Design() {
       </div>
 
 
-      <div className={toggleGallery? 'design__gallery ': "design__gallery hide" }>
+    </div>
+
+)
+}
+
+export default Design
+
+      {/* <div className={toggleGallery? 'design__gallery ': "design__gallery hide" }>
         <div className='design__gallery-top_nav'>
           <div onClick={handleToggle} className='design__gallery-back'>
             <img src="/arrowback.png" alt="" />
@@ -99,11 +122,4 @@ function Design() {
             </div>
           </div>
         </div>
-      </div>
-
-    </div>
-
-  )
-}
-
-export default Design
+      </div> */}

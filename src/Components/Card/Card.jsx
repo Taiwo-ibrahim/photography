@@ -3,12 +3,13 @@ import { NavLink, useNavigate } from 'react-router-dom'
 import "./Card.css"
 
 function Card() {
-
+   
   const navigate = useNavigate()
   function toPhoto() {
     return navigate("/photgraphy");
   }
 
+  
   return (
     <div className='card__container'>
       <NavLink to="../photography" className="card">
@@ -23,7 +24,7 @@ function Card() {
       <NavLink to="../design" className="card">
         <img className='worksCard' src="/designCard.png" alt="" />
       </NavLink>
-
+      
     </div>
   )
 }

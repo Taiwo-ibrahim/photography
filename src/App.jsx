@@ -13,6 +13,9 @@ import Copyright from './pages/Copyright/Copyright'
 import Privacy from './pages/Privacy/Privacy'
 import Faq from './pages/Faq/Faq'
 import Film from './pages/film/Film'
+import InnerArt from './pages/InnerArt/InnerArt'
+import InnerStyle from './pages/InnerStyle/InnerStyle'
+import InnerFashion from './pages/InnerFashion/InnerFashion'
 
 function App() {
 
@@ -20,12 +23,15 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Landing />} />
-          <Route path='/works' element={<Works />} >
+          <Route path='/works' exact element={<Works />} >
             <Route path="photography" element={<Photography />} />
             <Route path="art" element={<Art />} />
             <Route path="styling" element={<Styling />} />
             <Route path="design" element={<Design />} />
           </Route>
+          <Route path="/works/art/:id" element={<InnerArt />} />
+          <Route path="/works/styling/:ids" element={<InnerStyle />} />
+          <Route path="/works/design/:idf" element={<InnerFashion />} />
           <Route path='/about' element={<About />} />
           <Route path='/film' element={<Film />} />
           <Route path='/contact' element={<Contact />} />

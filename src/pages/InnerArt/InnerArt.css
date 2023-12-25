@@ -1,0 +1,97 @@
+.innerArt__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.innerArt__container-topnav {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.innerArt__container-images {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.innerArt__container-images_container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.innerArt__container-images_container > img {
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+}
+.innerArt__container-images_container:nth-child(even) {
+  background: #99578C;
+}
+.innerArt__container-images_container:nth-child(odd) {
+  background: #A0E3EA;
+}
+.innerArt__container-images_container:nth-child(1) {
+  background: white;
+}
+.innerArt-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.innerArt__container-row_images-container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.innerArt__container-row_images-container:nth-child(1) {
+  background: white;
+}
+.innerArt__container-row_images-container:nth-child(2), 
+.innerArt__container-row_images-container:nth-child(3), 
+.innerArt__container-row_images-container:nth-child(6), 
+.innerArt__container-row_images-container:nth-child(7) {
+  background: #99578C;
+}
+.innerArt__container-row_images-container:nth-child(4), 
+.innerArt__container-row_images-container:nth-child(5), 
+.innerArt__container-row_images-container:nth-child(8), 
+.innerArt__container-row_images-container:nth-child(9) {
+  background: #A0E3EA;
+}
+.innerArt__container-row_images-container:nth-child(1) {
+  width: 90%;
+  
+}
+.innerArt__container-row_images-container > img {
+  width: 90%;
+  margin-bottom: 20px;
+  margin-inline: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.innerArt__container-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 850px) {
+  .innerArt__container {
+    gap: 30px;
+  }
+  .innerArt__container-topnav {
+    margin-top: 30px;
+  }
+  .topnav-image {
+    width: 20px;
+  }
+}

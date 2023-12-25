@@ -12,8 +12,10 @@
   margin-inline: auto;
 }
 .worksCard{
+  align-items: center;
+  display: flex;
   width: 300px;
-  height: 180px;
+  min-height: 90px;
 }
 .card.active {
   opacity: 0.5;
