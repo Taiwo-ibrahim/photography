@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../../Components/Navbar/Navbar'
@@ -9,9 +10,12 @@ function Works() {
 
   const [changed, setChanged] = useState(true)
 
-  function handleChange() {
-    return setChanged(false)
-  }
+
+    function handleChange() {
+      return setChanged(false)
+    }
+
+  
 
   return (
     <div className='workspage__container'>

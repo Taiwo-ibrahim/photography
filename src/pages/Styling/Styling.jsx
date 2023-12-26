@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Card from '../../Components/Card/Card'
 import Card2 from '../../Components/Card2/Card2'
 import Footer from '../../Components/Footer/Footer'
+import Navbar from '../../Components/Navbar/Navbar'
 import './Styling.css'
 
 function Styling() {
@@ -48,7 +49,11 @@ function Styling() {
 
   return (
     <div className='styling-container'>
+      <div>
+        <Navbar />
+      </div>
       <div className="styling__container">
+        
         <div className='styling__container-left'>
           <Card />
         </div>

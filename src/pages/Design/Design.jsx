@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Card from '../../Components/Card/Card'
 import Card2 from '../../Components/Card2/Card2'
 import Footer from '../../Components/Footer/Footer'
+import Navbar from '../../Components/Navbar/Navbar'
 import './Design.css'
 
 function Design() {
@@ -47,6 +48,9 @@ function Design() {
 
   return (
     <div className='design__big-container'>
+      <div>
+        <Navbar />
+      </div>
       <div className={toggleGallery? 'design-container hide' : "design-container"}>
         <div className='design__container'>
           <div className='design__container-left'>

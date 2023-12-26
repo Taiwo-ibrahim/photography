@@ -3,6 +3,7 @@ import Card from '../../Components/Card/Card'
 import Footer from '../../Components/Footer/Footer'
 import './Photography.css'
 import { useState } from 'react'
+import Navbar from '../../Components/Navbar/Navbar'
 
 function Photography() {
   const [gallery , setGallery] = useState(false)
@@ -19,6 +20,11 @@ function Photography() {
 
   return (
     <div className='photography__big-container'>
+      <div>
+        <Navbar />
+      </div>
+
+
       <div className={gallery ? 'photography-container hide': "photography-container"}>
         <div className='photography__container'>
           <div className='photography__container-left'>

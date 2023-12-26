@@ -12,16 +12,16 @@ function Card() {
   
   return (
     <div className='card__container'>
-      <NavLink to="../photography" className="card">
+      <NavLink to="../works/photography" className="card">
         <img className='worksCard' src="/photoCard.png" alt="" />
       </NavLink>
-      <NavLink to="../styling" className="card">
+      <NavLink to="../works/styling" className="card">
         <img className='worksCard' src="/styleCard.png" alt="" />
       </NavLink>
-      <NavLink to="../art" className="card">
+      <NavLink to="../works/art" className="card">
         <img className='worksCard' src="/artCard.png" alt="" />
       </NavLink>
-      <NavLink to="../design" className="card">
+      <NavLink to="../works/design" className="card">
         <img className='worksCard' src="/designCard.png" alt="" />
       </NavLink>
       

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useNavigate} from 'react-router-dom'
 import './InnerArt.css'
 import { innerData } from './InnerArtData'
 
@@ -8,6 +8,7 @@ export default function InnerArt () {
   const { id } = useParams();
   const [data, setData] = useState();
   const [open, setOpen] = useState(false)
+  const navigate = useNavigate()
 
   function handleOpen() {
     setOpen(!open)
@@ -23,7 +24,7 @@ export default function InnerArt () {
   return (
     <div className='innerArt__container'>
       <div className='innerArt__container-topnav'>
-        <Link to="/works">
+        <Link to="/works/art" >
           <img className='topnav-image' src="/arrowback.png" alt="" />
         </Link>
         <div onClick={handleOpen}>

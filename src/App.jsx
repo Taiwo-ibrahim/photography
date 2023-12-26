@@ -23,12 +23,11 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Landing />} />
-          <Route path='/works' exact element={<Works />} >
-            <Route path="photography" element={<Photography />} />
-            <Route path="art" element={<Art />} />
-            <Route path="styling" element={<Styling />} />
-            <Route path="design" element={<Design />} />
-          </Route>
+          <Route path='/works' exact element={<Works />} />
+            <Route path="/works/photography" element={<Photography />} />
+            <Route path="/works/art" element={<Art />} />
+            <Route path="/works/styling" element={<Styling />} />
+            <Route path="/works/design" element={<Design />} />
           <Route path="/works/art/:id" element={<InnerArt />} />
           <Route path="/works/styling/:ids" element={<InnerStyle />} />
           <Route path="/works/design/:idf" element={<InnerFashion />} />

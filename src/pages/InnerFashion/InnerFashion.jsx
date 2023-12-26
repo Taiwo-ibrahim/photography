@@ -22,7 +22,7 @@ export default function InnerFashion() {
   return (
     <div className='innerArt__container'>
       <div className='innerArt__container-topnav'>
-        <Link to="/works">
+        <Link to="/works/design">
           <img  src="/arrowback.png" alt="" />
         </Link>
         <div onClick={handleFashionOpen}>

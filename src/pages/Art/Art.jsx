@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Card from '../../Components/Card/Card'
 import Card2 from '../../Components/Card2/Card2'
 import Footer from '../../Components/Footer/Footer'
+import Navbar from '../../Components/Navbar/Navbar'
 import './Art.css'
 
 function Art() {
@@ -50,6 +51,9 @@ function Art() {
 
   return (
     <div className='art-big_container'>
+      <div>
+        <Navbar />
+      </div>
       <div className="art-container" >
         <div className='art__container'>
           <div className='art__container-left'>

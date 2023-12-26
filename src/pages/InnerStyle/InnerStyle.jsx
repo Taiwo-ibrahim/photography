@@ -25,7 +25,7 @@ export default function InnerStyle() {
   return (
     <div className='innerArt__container'>
       <div className='innerArt__container-topnav'>
-        <Link to="/works">
+        <Link to="/works/styling">
           <img  src="/arrowback.png" alt="" />
         </Link>
         <div onClick={handleStyleOpen}>
