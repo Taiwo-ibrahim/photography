@@ -20,8 +20,10 @@
   align-items: center;
   gap: 20px;
 }
-.footer__container-top_right > img {
+.twitter-1 {
+  display: flex;
   width: 40px;
+  height: 40px;
 }
 .footer__container-top_left {
   display: flex;
@@ -165,7 +167,7 @@
     align-items: center;
     margin-bottom: 71px;
   }
-  .footer__container-media_query-images > img {
+  .twitter > img {
     width: 70px;
   }
 }

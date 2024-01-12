@@ -23,7 +23,7 @@
 .about__container-body_left > h2 {
   font-size: 36px;
   max-width: 1270px;
-  width: 90%;
+  width: 100%;
   margin-inline: auto;
   font-weight: 700;
   line-height: 40px;
@@ -31,9 +31,9 @@
   text-align: left;
 }
 .about__container-body_left > p {
-  max-width: 1270px;
+  max-width: 1229px;
   margin-inline: auto;
-  width: 90%;
+  width: 100%;
   font-family: forma-djr-text, sans-serif;
   font-size: 20px;
   font-style: italic;

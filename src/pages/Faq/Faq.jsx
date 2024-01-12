@@ -57,7 +57,7 @@ function Faq() {
       <Navbar />  
       <div className='faq__container-body'>
         <div className='faq__container-body_left'>
-          <h1>FAQs.</h1>
+          <h1>faq`s.</h1>
           <div className='faq__container-body_left-buttons'>
             {data.map((item, i) => (
               <button className={selected == i ? "faq__container-button question_button" : "faq__container-button "}  onClick={() => toggle(i)}>{item.question}</button>
@@ -65,7 +65,7 @@ function Faq() {
           </div>
         </div>
         <div className='faq__container-body_right'>
-          <h1>Ans.</h1>
+          <h1>ans.</h1>
           <div className='faq__container-body_right-answers '>
             <img src="/logo2.png" alt="" />
             {data.map((item, i) => (
@@ -77,7 +77,7 @@ function Faq() {
         </div>
 
         <div className='faq__container-media_query'>
-          <h1>FAQs</h1>
+          <h1>faq`s</h1>
           <div className='faq__container-media_query-qa_container'>
             {data.map((items, i) => (
               <div className={selected === i ? 'faq__container-media_query-qa show' : 'faq__container-media_query-qa' }>

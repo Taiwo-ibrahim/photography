@@ -20,6 +20,8 @@
 }
 .workscomp__container-images > img {
   position: relative;
+  display: flex;
+  height: 100%;
   width: 100%;
 }
 .workscomp__container-images > p {
@@ -44,7 +46,6 @@
     margin-bottom: 80px;
   }
   .workscomp__container-images > img {
-    /* max-height: 750px; */
     width: 850px;
     width: 100%;
     display: flex;
