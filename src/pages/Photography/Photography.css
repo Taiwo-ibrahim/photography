@@ -20,18 +20,20 @@
   margin-inline: auto;
   width: 60%;
 }
-.photography__container-right > img {
+.photography__container-right_items > img {
   width: 100%;
 }
-.photography__container-right > p {
-  width: 70%;
+.photography__container-right_items > p {
+  width: 80%;
   font-family: forma-djr-text, sans-serif;
   font-size: 24px;
   font-style: italic;
   font-weight: 700;
   line-height: 80px;
   text-align: left;
-  color: #A0E3EA;
+  display: flex;
+  align-items:center;
+  color: #000000;
   margin: 50px 0;
 }
 .photography__container-footer {

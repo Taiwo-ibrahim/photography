@@ -12,6 +12,7 @@ import Design from './pages/Design/Design'
 import Copyright from './pages/Copyright/Copyright'
 import Privacy from './pages/Privacy/Privacy'
 import Faq from './pages/Faq/Faq'
+import Press from './pages/Press/Press'
 import Film from './pages/film/Film'
 import InnerArt from './pages/InnerArt/InnerArt'
 import InnerStyle from './pages/InnerStyle/InnerStyle'
@@ -32,7 +33,8 @@ function App() {
           <Route path="/works/styling/:ids" element={<InnerStyle />} />
           <Route path="/works/design/:idf" element={<InnerFashion />} />
           <Route path='/about' element={<About />} />
-          <Route path='/film' element={<Film />} />
+          {/* <Route path='/film' element={<Film />} /> */}
+          <Route path='/press' element={<Press />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/copyright' element={<Copyright />} />
           <Route path='/privacy' element={<Privacy />} />
