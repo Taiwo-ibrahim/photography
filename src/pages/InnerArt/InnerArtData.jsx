@@ -64,5 +64,35 @@ export const innerData = [
       "/innerArt66.png",
       "/innerArt67.png"
     ],
+  },
+  {
+    id: 7,
+    images: [
+      `/innerArt71.png`,
+      "/innerArt72.png",
+      "/innerArt73.png",
+      "/innerArt74.png",
+      "/innerArt75.png",
+      "/innerArt76.png",
+      "/innerArt77.png",
+      "/innerArt78.png",
+      "/innerArt79.png",
+      "/innerArt710.png",
+      "/innerArt711.png",
+      "/innerArt712.png",
+      "/innerArt713.png"
+    ],
+  },
+  {
+    id: 8,
+    images: [
+      `/innerArt81.png`,
+      "/innerArt82.png",
+      "/innerArt83.png",
+      "/innerArt84.png",
+      "/innerArt85.png",
+      "/innerArt86.png",
+      "/innerArt87.png"
+    ],
   }
 ]

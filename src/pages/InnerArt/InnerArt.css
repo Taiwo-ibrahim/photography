@@ -59,13 +59,17 @@
 .innerArt__container-row_images-container:nth-child(2), 
 .innerArt__container-row_images-container:nth-child(3), 
 .innerArt__container-row_images-container:nth-child(6), 
-.innerArt__container-row_images-container:nth-child(7) {
+.innerArt__container-row_images-container:nth-child(7), 
+.innerArt__container-row_images-container:nth-child(10),
+.innerArt__container-row_images-container:nth-child(11) {
   background: #99578C;
 }
 .innerArt__container-row_images-container:nth-child(4), 
 .innerArt__container-row_images-container:nth-child(5), 
 .innerArt__container-row_images-container:nth-child(8), 
-.innerArt__container-row_images-container:nth-child(9) {
+.innerArt__container-row_images-container:nth-child(9), 
+.innerArt__container-row_images-container:nth-child(12), 
+.innerArt__container-row_images-container:nth-child(13) {
   background: #A0E3EA;
 }
 .innerArt__container-row_images-container:nth-child(1) {

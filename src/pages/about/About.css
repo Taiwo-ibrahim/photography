@@ -17,13 +17,13 @@
   flex-direction: column;
   gap: 26px;
   margin-inline: auto;
-  margin-top: 110px;
-  margin-bottom: 340px;
+  margin-top: 100px;
+  margin-bottom: 120px;
 }
 .about__container-body_left > h2 {
   font-size: 36px;
   max-width: 1270px;
-  width: 100%;
+  width: 90%;
   margin-inline: auto;
   font-weight: 700;
   line-height: 40px;
@@ -33,7 +33,7 @@
 .about__container-body_left > p {
   max-width: 1229px;
   margin-inline: auto;
-  width: 100%;
+  width: 90%;
   font-family: forma-djr-text, sans-serif;
   font-size: 20px;
   font-style: italic;
@@ -41,8 +41,11 @@
   line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
 }
+
 @media screen and (max-width: 850px) {
   .about__container-body_left {
     margin-top: 40px;

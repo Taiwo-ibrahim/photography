@@ -24,7 +24,7 @@ export default function InnerArt () {
   return (
     <div className='innerArt__container'>
       <div className='innerArt__container-topnav'>
-        <Link to="/works/art" >
+        <Link to="/works/art">
           <img className='topnav-image' src="/arrowback.png" alt="" />
         </Link>
         <div onClick={handleOpen}>

@@ -13,8 +13,8 @@ function Navbar() {
   return (
     <div>
       <div className='navbar__container'>
-        <NavLink  to="/" ><img className="home-img" src="/magawtfLogo.png" alt="top-logoo"/></NavLink>
-        <NavLink  to="/" ><img className="home-img-2" src="/logo2.png" alt="top-logo"/></NavLink>
+        <NavLink  to="/" ><img className="home-img" src="/logo3.svg" alt="top-logoo"/></NavLink>
+        <NavLink  to="/" ><img className="home-img-2" src="/logo3.svg" alt="top-logo"/></NavLink>
         <div className='navbar__container-links'>
           <NavLink className="nav-link" to="/">home</NavLink>
           <NavLink className="nav-link" to="/works">my works</NavLink>
@@ -29,7 +29,7 @@ function Navbar() {
           <img  src="/hamburger.png" alt="" />
         </div>
         <div className='media_query-nav_img-container'>
-          <NavLink  to="/" ><img className="media_query-nav_img" src="/logo3.png" alt="top-logo"/></NavLink>
+          <NavLink  to="/" ><img className="media_query-nav_img" src="/magawtfLogo.svg" alt="top-logo"/></NavLink>
         </div>
       </div>
 

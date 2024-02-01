@@ -14,7 +14,7 @@
 .worksCard{
   align-items: center;
   display: flex;
-  width: 300px;
+  max-width: 300px;
   min-height: 90px;
 }
 .card.active {
@@ -25,6 +25,12 @@
   opacity: 0.7;
   transition: opacity 0.5s ease-in-out;
 }
+.card >img {
+  width: 100%;
+}
+.card > p {
+  display: none;
+}
 @media screen and (max-width: 850px) {
   .card__container {
     flex-direction: row;
@@ -34,5 +40,33 @@
   .worksCard {
     width: 100%;
     max-height: 154px;
+    display: none;
+  }
+  .card {
+    width: 25%;
+    height: 100px;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .card:nth-child(odd) {
+    background: #99578C;
+  }
+  .card:nth-child(even) {
+    background: #50EEFF;
+  }
+  .card > p {
+    display: flex;
+    color: white;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: forma-djr-text, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
   }
 }

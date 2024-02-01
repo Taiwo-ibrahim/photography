@@ -36,22 +36,21 @@ function Art() {
     {
       id: 6,
       image: "/art1.png"
-    }
+    },
+    {
+      id: 7,
+      image: "/art7.png"
+    },
+    {
+      id: 8,
+      image: "/art8.png"
+    },
   ]
 
-  function artGallery() {
-    setArtToggle(!artToggle);
-  }
-
-  // const { id } = useParams()
-  
-  function artGallerToggle() {
-    setArtGalleryToggle(!artGalleryToggle)
-  }
 
   return (
     <div className='art-big_container'>
-      <div>
+      <div className='art__container-navbar'>
         <Navbar />
       </div>
       <div className="art-container" >
@@ -84,52 +83,3 @@ function Art() {
 export default Art
 
 
-
-{/* {artToggle && 
-
-  <div className='art-container-gallery'>
-    <div className='photography__gallery-nav'>
-      <div onClick={artGallery} className='gallery-back'>
-      </div> 
-      <div onClick={artGallerToggle} className='gallery-style'>
-        <img  src={artGalleryToggle? "/galleryrow.png" : "/gallerycolumn.png" }  alt="" />
-      </div>
-    </div>
-    <div className='top__gallery-section_img'>
-     <img src='/galleryTop.png' alt="" />
-    </div>
-    <div className={artGalleryToggle?  "art__container-gallery-row" : 'art__container-gallery_body' }>
-      <div className={artGalleryToggle? "art_gallery-card_row purple" : "art_gallery-card purple"}>
-        <div className='art_card-container'>
-          <Card2  card2Img="/art6.png"/>
-        </div>
-      </div>
-      <div className={artGalleryToggle? "art_gallery-card_row purple" : "art_gallery-card green"}>
-        <div className='art_card-container'>
-          <Card2  card2Img="/art5.png"/>
-        </div>
-      </div>
-      <div className={artGalleryToggle? "art_gallery-card_row green" : "art_gallery-card purple"}>
-        <div className='art_card-container'>
-          <Card2  card2Img="/art4.png"/>
-        </div>
-      </div>
-      <div className={artGalleryToggle? "art_gallery-card_row green" : "art_gallery-card green"}>
-        <div className='art_card-container'>
-          <Card2  card2Img="/art3.png"/>
-        </div>
-      </div>
-      <div className={artGalleryToggle? "art_gallery-card_row purple" : "art_gallery-card purple"}>
-        <div className='art_card-container'>
-          <Card2  card2Img="/art2.png"/>
-        </div>
-      </div>
-      <div className={artGalleryToggle? "art_gallery-card_row purple" : "art_gallery-card green"}>
-        <div className='art_card-container'>
-          <Card2  card2Img="/art1.png"/>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-} */}

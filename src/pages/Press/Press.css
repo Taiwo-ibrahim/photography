@@ -12,14 +12,14 @@
   display: flex;
   width: 100%;
   align-items: center;
-  gap: 10px;
+  gap: 20px 20px;
   flex-wrap:wrap;
   margin-inline: auto;
+  justify-content: center;
 }
 .press__container-image_link {
   display: flex;
-  margin-inline: auto;
-  width: 49%;
+  width: 23%;
 }
 .press__container-image_link > img {
   width: 100%;

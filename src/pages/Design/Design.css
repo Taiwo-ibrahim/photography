@@ -5,7 +5,7 @@
 .design__container {
   display: flex;
   flex-wrap: nowrap;
-  width: 95%;
+  width: 100%;
   margin-inline: auto;
   margin-top: 80px;
   margin-bottom: 20px;
@@ -18,8 +18,9 @@
   justify-content: center;
 }
 .design__container-right_card {
-  width: 280px;
-  height: 350px;
+  max-width: 270px;
+  width: 30%;
+  max-height: 350px;
 }
 .design__container-footer {
   display: none;
@@ -86,6 +87,14 @@
     display: block;
     margin-top: 50px;
   }
+  .design__container-right {
+    /* gap: 10px 40px; */
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .design__container-left {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 450px) {
   .gallery-back > img {
@@ -93,5 +102,8 @@
   }
   .gallery-style > img {
     width: 20px;
+  }
+  .design__container-right_card {
+    width: 100%;
   }
 }
