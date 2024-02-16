@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../../Components/Footer/Footer'
 import Navbar from '../../Components/Navbar/Navbar'
 import "./Press.css"
+import { Helmet } from 'react-helmet-async'
 
 function Press() {
 
@@ -50,21 +51,29 @@ function Press() {
 
 
   return (
-    <div className="press__container">
-      <div className='press__container-navbar'>
-        <Navbar />
+    <>
+      <Helmet>
+        <title>press page</title>
+        <meta name="description" content="press page for magawtf containing featured post from other websites"/>
+        <link rel='canonical' href='/press' />
+      </Helmet>
+
+      <div className="press__container">
+        <div className='press__container-navbar'>
+          <Navbar />
+        </div>
+        <div className='press__container-body'>
+          {data.map((item) => (
+            <a href={item.link} target="_blank" className='press__container-image_link'>
+              <img src={item.images} />
+            </a>
+          ))}
+        </div>
+        <div className='press__container-footer'>
+          <Footer />
+        </div>
       </div>
-      <div className='press__container-body'>
-        {data.map((item) => (
-          <a href={item.link} target="_blank" className='press__container-image_link'>
-            <img src={item.images} />
-          </a>
-        ))}
-      </div>
-      <div className='press__container-footer'>
-        <Footer />
-      </div>
-    </div>
+    </>
   )
 }
 

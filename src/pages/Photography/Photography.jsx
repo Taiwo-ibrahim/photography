@@ -1,9 +1,11 @@
 import React from 'react'
-import Card from '../../Components/Card/Card'
 import Footer from '../../Components/Footer/Footer'
 import './Photography.css'
 import { useState } from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
+import { Helmet } from 'react-helmet-async'
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Photography() {
   const [gallery , setGallery] = useState(false)
@@ -15,6 +17,8 @@ function Photography() {
   function handlegallerystyle() {
     setGalleryStyle(!galleryStyle)
   }
+
+
 
   const data = [
     {
@@ -113,34 +117,51 @@ function Photography() {
 
 
   return (
-    <div className='photography__big-container'>
-      <div>
-        <Navbar />
-      </div>
+    <>
+      <Helmet>
+        <title>photography page</title>
+        <meta name="description" content="photography portfolio page for magawtf"/>
+        <link rel='canonical' href='/works/photography' />
+      </Helmet>
+
+      <div className='photography__big-container'>
+        <div>
+          <Navbar />
+        </div>
 
 
-      <div className={gallery ? 'photography-container hide': "photography-container"}>
-        <div className='photography__container'>
-          <div className='photography__container-left'>
-            <Card />
+        <div className={gallery ? 'photography-container hide': "photography-container"}>
+          <div className='photography__container'>
+            <div className='name-container'>
+              <p>photography</p>
+            </div>
+            <Carousel autoPlay autoFocus interval={1000} infiniteLoop>
+
+                {data.map((image) => (
+                  <div className='photography__container-right_items'>
+                    <img src={image.image} alt="" />
+                    <img src={image.label} alt="" />
+                  </div>
+                ))}
+            </Carousel>
+            {/* <div className='photography__container-right'>
+              {data.map((item) => (
+                <div className='photography__container-right_items'>
+                  <img className='photography-hero' src={item.image} />
+                  <img className='photography-label' src={item.label} />
+                </div>
+              ))}
+            </div> */}
           </div>
-          <div className='photography__container-right'>
-            {data.map((item) => (
-              <div className='photography__container-right_items'>
-                <img className='photography-hero' src={item.image} />
-                <img className='photography-label' src={item.label} />
-              </div>
-            ))}
+          
+          <div className='photography__container-footer'>
+            <Footer />
           </div>
         </div>
-        
-        <div className='photography__container-footer'>
-          <Footer />
-        </div>
+
+
       </div>
-
-
-    </div>
+    </>
   )
 }
 

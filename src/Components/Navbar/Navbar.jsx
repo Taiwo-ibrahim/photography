@@ -8,13 +8,16 @@ function Navbar() {
   function handleClick() {
     setToggled(!toggled)
   }
-
+  
+  function refresh() {
+    location.reload()
+  }
 
   return (
     <div>
       <div className='navbar__container'>
-        <NavLink  to="/" ><img className="home-img" src="/logo3.svg" alt="top-logoo"/></NavLink>
-        <NavLink  to="/" ><img className="home-img-2" src="/logo3.svg" alt="top-logo"/></NavLink>
+        <NavLink  to="/" ><img className="home-img" src="/logo.png" alt="top-logoo"/></NavLink>
+        <NavLink  to="/" ><img className="home-img-2" src="/logo.png" alt="top-logo"/></NavLink>
         <div className='navbar__container-links'>
           <NavLink className="nav-link" to="/">home</NavLink>
           <NavLink className="nav-link" to="/works">my works</NavLink>

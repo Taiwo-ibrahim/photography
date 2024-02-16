@@ -55,8 +55,8 @@ function Art() {
       </div>
       <div className="art-container" >
         <div className='art__container'>
-          <div className='art__container-left'>
-            <Card />
+          <div className='name-container'>
+            <p>art direction</p>
           </div>
           <div className='art__container-right'>
             

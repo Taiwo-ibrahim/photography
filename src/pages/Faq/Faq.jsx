@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Footer from '../../Components/Footer/Footer'
 import Navbar from '../../Components/Navbar/Navbar'
 import './Faq.css'
+import { Helmet } from 'react-helmet-async'
 
 function Faq() {
   const [selected, setSelected] = useState(null)
@@ -53,47 +54,55 @@ function Faq() {
   
 
   return (
-    <div className='faq__container'>
-      <Navbar />  
-      <div className='faq__container-body'>
-        <div className='faq__container-body_left'>
-          <h1>faq.</h1>
-          <div className='faq__container-body_left-buttons'>
-            {data.map((item, i) => (
-              <button className={selected == i ? "faq__container-button question_button" : "faq__container-button "}  onClick={() => toggle(i)}>{item.question}</button>
-              ))}
-          </div>
-        </div>
-        <div className='faq__container-body_right'>
-          <h1>ans.</h1>
-          <div className='faq__container-body_right-answers '>
-            <img src="/logo2.png" alt="" />
-            {data.map((item, i) => (
-              <p className={selected === i ? "faq__container-answer show": "faq__container-answer"}>{item.answer}</p>
-              ))}
+    <>
+      <Helmet>
+        <title>faq page</title>
+        <meta name='description' content='frequently asked questions (faq) or enquiries about magawtf seriesof services and work ethic.' />
+        <link href='/faq' rel='canonical' />
+      </Helmet>
 
-          
+      <div className='faq__container'>
+        <Navbar />  
+        <div className='faq__container-body'>
+          <div className='faq__container-body_left'>
+            <h1>faq.</h1>
+            <div className='faq__container-body_left-buttons'>
+              {data.map((item, i) => (
+                <button className={selected == i ? "faq__container-button question_button" : "faq__container-button "}  onClick={() => toggle(i)}>{item.question}</button>
+                ))}
+            </div>
           </div>
-        </div>
+          <div className='faq__container-body_right'>
+            <h1>ans.</h1>
+            <div className='faq__container-body_right-answers '>
+              <img src="/logo2.png" alt="" />
+              {data.map((item, i) => (
+                <p className={selected === i ? "faq__container-answer show": "faq__container-answer"}>{item.answer}</p>
+                ))}
 
-        <div className='faq__container-media_query'>
-          <h1>faq</h1>
-          <div className='faq__container-media_query-qa_container'>
-            {data.map((items, i) => (
-              <div className={selected === i ? 'faq__container-media_query-qa show' : 'faq__container-media_query-qa' }>
-                <div className='faq__container-media_query-qa_question' onClick={() => toggle(i)}>
-                  <p className={selected === i ? "faq__container-media_query-qa_question-text show": "faq__container-media_query-qa_question-text"}>{items.question}</p>
-                  <img src={selected === i ? "/arrowup.png" : "/arrowdown.png"} alt=""/>
+            
+            </div>
+          </div>
+
+          <div className='faq__container-media_query'>
+            <h1>faq</h1>
+            <div className='faq__container-media_query-qa_container'>
+              {data.map((items, i) => (
+                <div className={selected === i ? 'faq__container-media_query-qa show' : 'faq__container-media_query-qa' }>
+                  <div className='faq__container-media_query-qa_question' onClick={() => toggle(i)}>
+                    <p className={selected === i ? "faq__container-media_query-qa_question-text show": "faq__container-media_query-qa_question-text"}>{items.question}</p>
+                    <img src={selected === i ? "/arrowup.png" : "/arrowdown.png"} alt=""/>
+                  </div>
+                  <h4 className={selected === i? "faq__container-media_query-qa_answer show" : "faq__container-media_query-qa_answer"}>{items.answer}</h4>
                 </div>
-                <h4 className={selected === i? "faq__container-media_query-qa_answer show" : "faq__container-media_query-qa_answer"}>{items.answer}</h4>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
 
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   )
 }
 

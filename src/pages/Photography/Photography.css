@@ -4,16 +4,28 @@
 }
 .photography__container {
   display: flex;
+  flex-direction: column;
   width: 100%;
   margin-inline: auto;
-  margin-top: 80px;
-  gap: 10px;
+  gap: 30px;
   flex-wrap: nowrap;
-  margin-bottom: 30px;
 }
-.photography__container-left {
-  width: 30%;
-  /* border:2px solid green; */
+.name-container {
+  display: flex;
+  width: 100%;
+  background: #99578C;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 67px;
+}
+.name-container > p {
+  display: flex;
+  margin-inline: auto;
+  text-align: center;
+
 }
 .photography__container-right {
   display: flex;

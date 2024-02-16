@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Helmet } from 'react-helmet-async'
 import { useNavigate } from 'react-router-dom'
 import Card from '../../Components/Card/Card'
 import Card2 from '../../Components/Card2/Card2'
@@ -70,33 +71,37 @@ function Styling() {
   ]
 
   return (
-    <div className='styling-container'>
-      <div>
-        <Navbar />
-      </div>
-      <div className="styling__container">
-        
-        <div className='styling__container-left'>
-          <Card />
+    <>
+      <Helmet>
+        <title>styling page</title>
+        <meta name='description' content='styling portfolio page for magawtf' />
+        <link href='/works/styling' rel='canonical' />
+      </Helmet>
+      <div className='styling-container'>
+        <div className='styling-container-navbar'>
+          <Navbar />
         </div>
-        <div className='styling__container-right'>
+        <div className="styling__container">
           
-          {styleData.map((item) => {
-            return(
-              <div key={item.ids} onClick={() => navigate(`/works/styling/${item.ids}`)} className="styling__container-right_card">
-                <Card2 card2Img={item.imageSrc} />
-              </div>
-            )
-          })}
-        </div>
-        <div className='styling__container-footer'>
-          <Footer />
+          <div className="name-container">
+            <p>styling</p>
+          </div>
+          <div className='styling__container-right'>
+            
+            {styleData.map((item) => {
+              return(
+                <div key={item.ids} onClick={() => navigate(`/works/styling/${item.ids}`)} className="styling__container-right_card">
+                  <Card2 card2Img={item.imageSrc} />
+                </div>
+              )
+            })}
+          </div>
+          <div className='styling__container-footer'>
+            <Footer />
+          </div>
         </div>
       </div>
-
-
-
-    </div>
+    </>
   )
 }
 

@@ -1,25 +1,24 @@
 .styling-container {
-  border: 1px solid #A0E3EA;
+  border:
   width: 100%;
+}
+.styling-container-navbar {
+  border-bottom:  1px solid #A0E3EA;
 }
 .styling__container {
   display: flex;
   width: 100%;
+  flex-direction: column;
   margin-inline: auto;
-  margin-top: 80px;
-  gap: 7px;
+  /* margin-top: 80px; */
+  gap: 30px;
   flex-wrap: nowrap;
-}
-.styling__container-left {
-  width: 95%;
-}
-.styling__container.hide {
-  display: none;
 }
 .styling__container-right {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
+  width: 100%;
   margin-inline: auto;
   gap: 40px 40px;
   margin-bottom: 30px;
