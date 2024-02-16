@@ -10,8 +10,6 @@
   cursor: pointer;
 }
 .workscomp__container-images:hover{
-  transition: opacity 0.5s ease-in-out;
-  opacity: 0.8;
   scale: 1.01;
 }
 

@@ -20,25 +20,24 @@ function Landing() {
         </video> */}
         <Navbar />
         <div className='landing__container-top'>
-          <img src="/home_img1.png" alt="" />
+          <video controls autoPlay loop>
+            <source src="flairFashionWeek.mp4" type="video/mp4" ></source>
+          </video>
+          {/* <img src="/home_img1.png" alt="" /> */}
         </div>
         <div className='landing__container-bottom'>
           <div className='landing__container2'>
             <div className='landing__container-images'>
               <NavLink to="/works"><img className='landing__images' src="/home_img2.png" alt="" /></NavLink>
-              <p>photography</p>
             </div>
             <div  className='landing__container-images'>
               <NavLink to="/works"><img className='landing__images' src="/home_img3.png" alt="" /></NavLink>
-              <p>styling</p>
             </div>
             <div  className='landing__container-images'>
               <NavLink to="/works"><img className='landing__images' src="/home_img4.png" alt="" /></NavLink>
-              <p>art direction</p>   
             </div>
             <div  className='landing__container-images'>
               <NavLink to="/works"><img className='landing__images' src="/home_img5.png" alt="" /></NavLink>
-              <p>fashion design</p>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@
   display: flex;
   width: 100%;
 }
-.landing__container-top > img {
+.landing__container-top > video {
   width: 100%;
 }
 .landing__container-bottom {
