@@ -20,8 +20,8 @@ function Navbar() {
         <NavLink  to="/" ><img className="home-img-2" src="/logo.png" alt="top-logo"/></NavLink>
         <div className='navbar__container-links'>
           <NavLink className="nav-link" to="/">home</NavLink>
-          <NavLink className="nav-link" to="/works">my works</NavLink>
-          <NavLink className="nav-link" to="/about">about me</NavLink>
+          <NavLink className="nav-link" to="/works">works</NavLink>
+          <NavLink className="nav-link" to="/about">about</NavLink>
           <NavLink className="nav-link" to="/press">press</NavLink>
           <NavLink className="nav-link" to="/contact">contact me</NavLink>
         </div>
