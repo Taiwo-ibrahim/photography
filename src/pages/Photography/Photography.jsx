@@ -134,8 +134,8 @@ function Photography() {
           <div className='photography__container'>
             <div className='name-container'>
               <p>photography</p>
-            </div>
-            <Carousel autoPlay autoFocus interval={1000} infiniteLoop>
+            </div>npmrun de
+            <Carousel autoFocus interval={1000} infiniteLoop >
 
                 {data.map((image) => (
                   <div className='photography__container-right_items'>
@@ -144,14 +144,7 @@ function Photography() {
                   </div>
                 ))}
             </Carousel>
-            {/* <div className='photography__container-right'>
-              {data.map((item) => (
-                <div className='photography__container-right_items'>
-                  <img className='photography-hero' src={item.image} />
-                  <img className='photography-label' src={item.label} />
-                </div>
-              ))}
-            </div> */}
+           
           </div>
           
           <div className='photography__container-footer'>

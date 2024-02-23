@@ -17,17 +17,22 @@ export const innerData = [
       "/innerArt22.png",
       "/innerArt23.png",
       "/innerArt24.png",
-      "/innerArt25.png"
+      "/innerArt25.png",
+      "/innerArt26.png",
     ],
   },
   {
     id: 3,
     images: [
-      `/innerArt11.png`,
-      "/innerArt12.png",
-      "/innerArt13.png",
-      "/innerArt14.png",
-      "/innerArt15.png"
+      `/innerArt31.png`,
+      "/innerArt32.png",
+      "/innerArt33.png",
+      "/innerArt34.png",
+      "/innerArt35.png",
+      "/innerArt36.png",
+      "/innerArt37.png",
+      "/innerArt38.png",
+      "/innerArt39.png",
     ],
   },
   {
@@ -51,6 +56,7 @@ export const innerData = [
       "/innerArt52.png",
       "/innerArt53.png",
       "/innerArt54.png",
+      "/innerArt55.png",
     ],
   },
   {
@@ -78,9 +84,6 @@ export const innerData = [
       "/innerArt78.png",
       "/innerArt79.png",
       "/innerArt710.png",
-      "/innerArt711.png",
-      "/innerArt712.png",
-      "/innerArt713.png"
     ],
   },
   {
@@ -92,7 +95,11 @@ export const innerData = [
       "/innerArt84.png",
       "/innerArt85.png",
       "/innerArt86.png",
-      "/innerArt87.png"
+      "/innerArt87.png",
+      "/innerArt88.png",
+      "/innerArt89.png",
+      "/innerArt810.png",
+      "/innerArt811.png",
     ],
   }
 ]

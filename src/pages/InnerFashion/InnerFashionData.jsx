@@ -29,7 +29,6 @@ export const innerFashionData = [
       "/innerFashion34.png",
       "/innerFashion35.png",
       "/innerFashion36.png",
-      "/innerFashion37.png"
     ],
   },
   {

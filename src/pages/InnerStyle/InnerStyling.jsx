@@ -81,8 +81,6 @@ export const innerStyleData = [
       "/innerStyle82.png",
       "/innerStyle83.png",
       "/innerStyle84.png",
-      "/innerStyle85.png",
-      "/innerStyle86.png"
     ],
   },
   {
@@ -96,7 +94,6 @@ export const innerStyleData = [
       "/innerStyle96.png",
       "/innerStyle97.png",
       "/innerStyle98.png",
-      "/innerStyle99.png"
     ],
   },
   {
@@ -130,12 +127,15 @@ export const innerStyleData = [
   {
     ids: 12,
     images: [
-      `/innerStyle81.png`,
-      "/innerStyle82.png",
-      "/innerStyle83.png",
-      "/innerStyle84.png",
-      "/innerStyle85.png",
-      "/innerStyle86.png"
+      `/innerStyle121.png`,
+      "/innerStyle122.png",
+      "/innerStyle123.png",
+      "/innerStyle124.png",
+      "/innerStyle125.png",
+      "/innerStyle126.png",
+      "/innerStyle127.png",
+      "/innerStyle128.png",
+      "/innerStyle129.png",
     ],
   },
   {
@@ -161,7 +161,6 @@ export const innerStyleData = [
       "/innerStyle142.png",
       "/innerStyle143.png",
       "/innerStyle144.png",
-      "/innerStyle145.png"
     ],
   }
 ]
