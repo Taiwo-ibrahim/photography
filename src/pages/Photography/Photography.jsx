@@ -134,8 +134,8 @@ function Photography() {
           <div className='photography__container'>
             <div className='name-container'>
               <p>photography</p>
-            </div>npmrun de
-            <Carousel autoFocus interval={1000} infiniteLoop >
+            </div>
+            <Carousel autoFocus interval={1000} infiniteLoop className='carousel'>
 
                 {data.map((image) => (
                   <div className='photography__container-right_items'>
