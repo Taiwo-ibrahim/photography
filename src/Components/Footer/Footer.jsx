@@ -35,8 +35,8 @@ function Footer() {
         <p>contact@magawtf.com</p>
         <h1></h1>
         <div className='footer__container-media_query-images'>
-          <a className='twitter' href="https://x.com/bymagawtf?s=21" target="_blank"><img src='/Twitter.png' alt="twitter" /></a>
-          <a className='twitter' href="https://instagram.com/magawhat.tf?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src='/instagram.png' alt="instagram" /></a>
+          <a className='twitter' href="https://x.com/_magawtf?s=21" target="_blank"><img src='/Twitter.png' alt="twitter" /></a>
+          <a className='twitter' href="https://www.instagram.com/magawtf_?igsh=M21vcWtlcGM3Zm10&utm_source=qr" target="_blank"><img src='/instagram.png' alt="instagram" /></a>
           
         </div>
 

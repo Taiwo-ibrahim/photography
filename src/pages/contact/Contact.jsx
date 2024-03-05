@@ -50,8 +50,8 @@ function Contact() {
             <p>have a project in mind?</p>
             <h1>fill in the form to make enquiries</h1>
             <div className='contact__container-form_text_images'>
-              <img src="/Twitter.png" alt="" />
-              <img src="/instagram.png" alt="" />
+              <a className='twitter' href="https://x.com/_magawtf?s=21" target="_blank"><img src='/Twitter.png' alt="twitter" /></a>
+              <a className='twitter' href="https://www.instagram.com/magawtf_?igsh=M21vcWtlcGM3Zm10&utm_source=qr" target="_blank"><img src='/instagram.png' alt="instagram" /></a>
             </div>
           </div>
           <div className='contact__container-form'>

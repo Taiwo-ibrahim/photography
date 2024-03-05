@@ -48,7 +48,7 @@
   display: flex;
   gap: 20px;
 }
-.contact__container-form_text_images > img {
+.twitter > img {
   cursor: pointer;
   width: 40px;
 }
