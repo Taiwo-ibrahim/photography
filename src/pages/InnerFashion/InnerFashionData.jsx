@@ -45,12 +45,7 @@ export const innerFashionData = [
     idf: 6,
     images: [
       `/innerFashion51.png`,
-      "/innerFashion52.png",
-      "/innerFashion53.png",
-      "/innerFashion54.png",
-      "/innerFashion55.png",
-      "/innerFashion56.png",
-      "/innerFashion57.png"
+      "/innerFashion52.png"
     ],
   },
   {
