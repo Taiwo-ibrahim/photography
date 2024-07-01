@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useRef} from 'react'
 import { Helmet } from 'react-helmet-async'
 import { NavLink } from 'react-router-dom'
 import Footer from '../../Components/Footer/Footer'
@@ -6,6 +6,10 @@ import Navbar from '../../Components/Navbar/Navbar'
 import './Landing.css'
 
 function Landing() {
+
+
+
+
   return (
     <>
       <Helmet>
@@ -20,10 +24,9 @@ function Landing() {
         </video> */}
         <Navbar />
         <div className='landing__container-top'>
-          <video controls autoPlay loop>
+          <video controls  loop>
             <source src="flairFashionWeek.mp4" type="video/mp4" ></source>
           </video>
-          {/* <img src="/home_img1.png" alt="" /> */}
         </div>
         <div className='landing__container-bottom'>
           <div className='landing__container2'>
